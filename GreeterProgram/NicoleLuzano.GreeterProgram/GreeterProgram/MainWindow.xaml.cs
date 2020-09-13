@@ -23,13 +23,31 @@ namespace GreeterProgram
         public MainWindow()
         {
             InitializeComponent();
+            List<string> colors = new List<string>()
+            {
+                "Black",
+                "White",
+                "Blue",
+                "Red",
+                "Green",
+                "Vilote",
+                "Orange",
+                "Yellow",
+                "Pink",
+            };
+
+            cboColor.ItemsSource = colors;
         }
 
         private void btnOK_Click(object sender, RoutedEventArgs e)
         {
             string fullName = txtFisrtName.Text + " " + txtLastName.Text;
 
-            MessageBox.Show("Hello " + fullName + "Good afternoon!");
+            MessageBox.Show("Hello " + fullName + " Good afternoon! Your favorite color is " + cboColor.SelectedItem);
+        }
+
+        private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
         }
     }
 }

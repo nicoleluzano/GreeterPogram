@@ -5,13 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GreeterProgram"
         mc:Ignorable="d"
-        Title="Nicole Luzano" Height="300" Width="401">
+        Title="Nicole Luzano" Height="253" Width="266">
     <Grid>
-        <Label x:Name="lblFirstName" Content="First Name" HorizontalAlignment="Left" Margin="30,23,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="txtFisrtName" HorizontalAlignment="Left" Margin="102,23,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="26"/>
-        <Label x:Name="lblLastName" Content="Last Name" HorizontalAlignment="Left" Margin="30,60,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="txtLastName" HorizontalAlignment="Left" Margin="102,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="26"/>
-        <Button x:Name="btnOK" Content="OK" HorizontalAlignment="Left" Margin="175,102,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.076,-0.683" Width="47" Height="25" Click="btnOK_Click"/>
+        <Label x:Name="lblFirstName" Content="First Name" HorizontalAlignment="Left" Margin="13,23,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtFisrtName" HorizontalAlignment="Left" Margin="102,23,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="143" Height="26"/>
+        <Label x:Name="lblLastName" Content="Last Name" HorizontalAlignment="Left" Margin="13,60,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtLastName" HorizontalAlignment="Left" Margin="102,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="143" Height="26"/>
+        <Button x:Name="btnOK" Content="OK" HorizontalAlignment="Left" Margin="198,186,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.076,-0.683" Width="47" Height="25" Click="btnOK_Click"/>
+        <ComboBox x:Name="cboColor" HorizontalAlignment="Left" Margin="102,0,0,0" VerticalAlignment="Center" Width="143" SelectionChanged="ComboBox_SelectionChanged"/>
+        <Label x:Name="lblColor" Content="Favorite Color" HorizontalAlignment="Left" Margin="13,0,0,0" VerticalAlignment="Center"/>
 
     </Grid>
 </Window>
