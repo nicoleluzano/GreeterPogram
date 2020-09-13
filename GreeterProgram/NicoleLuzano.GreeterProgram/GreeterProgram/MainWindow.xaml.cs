@@ -24,5 +24,12 @@ namespace GreeterProgram
         {
             InitializeComponent();
         }
+
+        private void btnOK_Click(object sender, RoutedEventArgs e)
+        {
+            string fullName = txtFisrtName.Text + " " + txtLastName.Text;
+
+            MessageBox.Show(fullName);
+        }
     }
 }

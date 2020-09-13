@@ -11,7 +11,7 @@
         <TextBox x:Name="txtFisrtName" HorizontalAlignment="Left" Margin="102,23,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="26"/>
         <Label x:Name="lblLastName" Content="Last Name" HorizontalAlignment="Left" Margin="30,60,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="txtLastName" HorizontalAlignment="Left" Margin="102,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="26"/>
-        <Button x:Name="btnOK" Content="OK" HorizontalAlignment="Left" Margin="175,102,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.076,-0.683" Width="47" Height="25"/>
+        <Button x:Name="btnOK" Content="OK" HorizontalAlignment="Left" Margin="175,102,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.076,-0.683" Width="47" Height="25" Click="btnOK_Click"/>
 
     </Grid>
 </Window>
